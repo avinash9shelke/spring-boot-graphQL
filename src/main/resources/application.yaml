@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-boot-graphql
+  datasource:
+    username: concourse_user
+    password: concourse_pass
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/concourse
