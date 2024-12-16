@@ -6,3 +6,7 @@ spring:
     password: concourse_pass
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/concourse
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
